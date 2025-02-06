@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height:42px;
+    width: 200px;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+input::placeholder{
+    font-size: 2rem;
+    padding: auto;
+}
